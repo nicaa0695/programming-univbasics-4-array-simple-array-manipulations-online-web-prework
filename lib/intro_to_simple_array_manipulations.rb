@@ -4,4 +4,7 @@ next_color = "violet"
 colors_in_the_rainbow.push(next_color)
 end
 
-def 
+def using_unshift(colors_in_the_rainbow, next_color)
+  next_color = "gold"
+  colors_in_the_rainbow.unshift(next_color)
+end
