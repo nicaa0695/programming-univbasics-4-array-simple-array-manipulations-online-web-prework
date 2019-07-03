@@ -48,7 +48,7 @@ end
 end
 
  def using_flatten(private_colleges_in_newyork)
-  private_colleges_in_newyork = [], "The Juilliard School", "Bard College", "Cooper Union"]
+  private_colleges_in_newyork = ["Saxaphone", "Piano","Trumpet"], "Violin", "Drums", "Flute"]
   flat_array = private_colleges_in_newyork.flatten
 end
 
@@ -57,7 +57,7 @@ end
 end
 
  def using_delete_at(famous_robots, integer)
-  famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
+  famous_robots = ["the dog from doctor who", "R2D2", "Robocop"]
   integer = 2
   deleted_robot = famous_robots.delete_at(integer)
 end
